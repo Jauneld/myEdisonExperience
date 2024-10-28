@@ -1,4 +1,8 @@
 # Jauneld.github.io
+
+This is the rubric: https://docs.google.com/document/d/1PmmkdcvXwvHUOiutqOs4itUuxrV1YPr2NEp3r3mzjg8/edit?pli=1&tab=t.0
+
+
 This file is to remind myself of what is in the repository, how teh code works and what I need to accomplish
 * = done 
 List of all my Replit projects/assignments
