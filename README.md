@@ -2,6 +2,8 @@
 
 This is the rubric: https://docs.google.com/document/d/1PmmkdcvXwvHUOiutqOs4itUuxrV1YPr2NEp3r3mzjg8/edit?pli=1&tab=t.0
 
+This is the about me layout: https://www.wix.com/website-template/view/html/2250?originUrl=https%3A%2F%2Fwww.wix.com%2Fwebsite%2Ftemplates%2Fhtml%2Fall%2F7&tpClick=view_button&esi=50a8385f-425f-4bc4-b9d1-4e90948581a2 
+
 
 This file is to remind myself of what is in the repository, how teh code works and what I need to accomplish
 * = done 
