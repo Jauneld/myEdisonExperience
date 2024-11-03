@@ -1,9 +1,13 @@
-*{
+/**{
   font-size:10vw
   font-family: verdana;
 }
 
 a {
   color: black
+}*/
+
+.class-img{
+  max-height: 20%;
 }
   
