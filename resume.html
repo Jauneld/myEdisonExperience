@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Resume</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- External CSS -->
+    <link rel="stylesheet" href="resume.css">
+</head>
+<body>
+<!-- Navigation Overlay Image and Dropdown Menu -->
+<div class="nav-overlay">
+    <img src="https://via.placeholder.com/50" alt="Profile Icon" id="profileIcon">
+    <div class="dropdown-menu" id="dropdownMenu">
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#resources">Resources</a></li>
+            <li><a href="#contact">Contact Me</a></li>
+        </ul>
+    </div>
+</div>
+<!-- Dimming Overlay -->
+<div id="dimmingOverlay"></div>
+
+<!-- Hero Section -->
+<div class="hero-section" id="home">
+    <h1 class="typewriter-text">My Resume</h1>
+    <div class="scroll-arrow" id="scrollDownArrow">⬇</div>
+</div>
+
+
+<!-- Overlay Effect for Dimming -->
+<div id="overlay"></div>
+
+
+<!-- Main Container -->
+<div class="container mt-5">
+    <div class="row">
+        <!-- Navigation Tabs -->
+        <ul class="nav nav-tabs w-100" id="resumeTabs" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="profile-tab" data-bs-toggle="tab" data-bs-target="#profile" type="button" role="tab" aria-controls="profile" aria-selected="true">Profile</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="skills-tab" data-bs-toggle="tab" data-bs-target="#skills" type="button" role="tab" aria-controls="skills" aria-selected="false">Skills</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="work-tab" data-bs-toggle="tab" data-bs-target="#work" type="button" role="tab" aria-controls="work" aria-selected="false">Work Experience</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="education-tab" data-bs-toggle="tab" data-bs-target="#education" type="button" role="tab" aria-controls="education" aria-selected="false">Education</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="certifications-tab" data-bs-toggle="tab" data-bs-target="#certifications" type="button" role="tab" aria-controls="certifications" aria-selected="false">Certifications</button>
+            </li>
+        </ul>
+
+        <!-- Tab Content -->
+        <div class="tab-content p-3" id="resumeTabContent">
+            <!-- Profile Section -->
+            <div class="tab-pane fade show active" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                <div class="text-center">
+                    <img src="https://via.placeholder.com/150" class="img-fluid rounded-circle mb-3" alt="Profile Picture">
+                    <h2>Jaunel Deans</h2>
+                    <p><i class="fa fa-briefcase"></i> Web Designer | <i class="fa fa-home"></i> New York, USA</p>
+                    <p><i class="fa fa-envelope"></i> jauneldeans1@gmail.com | <i class="fa fa-phone"></i> +1 (646) 698-1521</p>
+                </div>
+            </div>
+
+            <!-- Skills Section -->
+            <div class="tab-pane fade" id="skills" role="tabpanel" aria-labelledby="skills-tab">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>Hard Skills</h3>
+                        <p>Python</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-success" style="width: 80%">80%</div>
+                        </div>
+                        <p>HTML</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-info" style="width: 70%">70%</div>
+                        </div>
+                        <p>CSS</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-warning" style="width: 68%">65%</div>
+                        </div>
+                        <p>JavaScript</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" style="width: 50%">50%</div>
+                        </div>
+                        <p>Photography</p>
+                        <div class="progress">
+                            <div class="progress-bar bg-danger" style="width: 45%">45%</div>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <h3>Soft Skills</h3>
+                        <div class="soft-skills-container">
+                            <span class="soft-skill-bubble">Communication</span>
+                            <span class="soft-skill-bubble">Teamwork</span>
+                            <span class="soft-skill-bubble">Creativity</span>
+                            <span class="soft-skill-bubble">Problem Solving</span>
+                            <span class="soft-skill-bubble">Adaptability</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Work Experience Section -->
+            <div class="tab-pane fade" id="work" role="tabpanel" aria-labelledby="work-tab">
+                <h3>Work Experience</h3>
+                <h5>Front End Developer / w3schools.com</h5>
+                <p><i class="fa fa-calendar"></i> Jan 2015 - Current</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+                <hr>
+                <h5>Web Developer / something.com</h5>
+                <p><i class="fa fa-calendar"></i> Mar 2012 - Dec 2014</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            </div>
+
+            <!-- Education Section -->
+            <div class="tab-pane fade" id="education" role="tabpanel" aria-labelledby="education-tab">
+                <h3>Education</h3>
+                <h5>W3Schools.com</h5>
+                <p><i class="fa fa-calendar"></i> Forever</p>
+                <p>Web Development! All I need to know in one place</p>
+                <hr>
+                <h5>London Business School</h5>
+                <p><i class="fa fa-calendar"></i> 2013 - 2015</p>
+                <p>Master's Degree</p>
+            </div>
+
+            <!-- Certifications Section -->
+            <div class="tab-pane fade" id="certifications" role="tabpanel" aria-labelledby="certifications-tab">
+                <h3>Certifications</h3>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Certification Image">
+                            <div class="card-body">
+                                <h5 class="card-title">HTML and CSS</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Certification Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Python</h5>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card">
+                            <img src="https://via.placeholder.com/150" class="card-img-top" alt="Certification Image">
+                            <div class="card-body">
+                                <h5 class="card-title">Adobe Certified Expert (Photoshop)</h5>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Scroll to Top Button -->
+<button id="scrollToTopBtn" class="btn btn-primary" title="Go to top">Top</button>
+
+<!-- Bootstrap JS and External JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="resume.js"></script>
+</body>
+</html>
