@@ -94,3 +94,66 @@ body{
     display:none;
   }
 }
+
+/* Overlay Navigation Styles */
+.nav-overlay {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    z-index: 1000;
+}
+
+.nav-overlay img {
+    width: 50px;
+    cursor: pointer;
+    transition: transform 0.3s;
+}
+
+.nav-overlay img:hover {
+    transform: scale(1.1);
+}
+
+.dropdown-menu {
+    position: absolute;
+    top: 60px;
+    left: 0;
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    display: none;
+    width: 150px;
+    padding: 10px 0;
+    z-index: 1000;
+    border-radius: 8px;
+}
+
+.dropdown-menu ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.dropdown-menu li {
+    text-align: left;
+    padding: 10px 15px;
+}
+
+.dropdown-menu li a {
+    color: #333;
+    text-decoration: none;
+}
+
+.dropdown-menu li a:hover {
+    color: #007bff;
+}
+
+/* Dimming Overlay */
+#dimmingOverlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: none;
+    z-index: 900;
+}
