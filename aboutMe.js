@@ -8,6 +8,31 @@ document.getElementById("more-info-btn").addEventListener("click", function() {
     }
 });
 
+
+    // Smooth scrolling for the scroll-down button on the hero image
+    const scrollDownArrow = document.getElementById('scrollDownArrow');
+
+    scrollDownArrow.addEventListener('click', function () {
+        const nextSection = document.querySelector('.container');
+        nextSection.scrollIntoView({ behavior: 'smooth' });
+    });
+
+    // Scroll-to-top button functionality
+    const scrollToTopBtn = document.getElementById("scrollToTopBtn");
+
+    window.addEventListener("scroll", () => {
+        // Show or hide button based on scroll position
+        if (window.pageYOffset > 300) {
+            scrollToTopBtn.style.display = "block";
+        } else {
+            scrollToTopBtn.style.display = "none";
+        }
+    });
+
+    scrollToTopBtn.addEventListener("click", function () {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+    });  
+
 document.addEventListener('DOMContentLoaded', function () {
     // Existing tab fade effect, scroll to top, etc. remains as previously added
 
