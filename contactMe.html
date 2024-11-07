@@ -1,12 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+  <head> 
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Contact Me</title>
     <link rel="stylesheet" href="contactMe.css">
   </head>
   <body>
+    <!-- Navigation Overlay Image and Dropdown Menu -->
+<div class="nav-overlay">
+    <img src="icons8-hamburger-menu-50.png" alt="Profile Icon" id="profileIcon">
+    <div class="dropdown-menu" id="dropdownMenu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="aboutMe.html">About Me</a></li>
+            <li><a href="https://jauneld.github.io/grade11Spring/work.html">Resources</a></li>
+            <li><a href="resume.html">Resume</a></li>
+        </ul>
+    </div>
+</div>
+<!-- Dimming Overlay -->
+<div id="dimmingOverlay"></div>
+
     <div class="contact-container">
       <form action="https://api.web3forms.com/submit" method="POST" class="contact-left"> 
         <div class="contact-left-title">
@@ -16,13 +31,15 @@
          <input type="hidden" name="access_key" value="3355031c-e541-4291-98f7-e0ea6e3d62ac">
         <input type="text" name="name" placeholder="Your Name" class="contact-inputs" required>
         <input type="email" name="email" placeholder="Your Email" class="contact-inputs" required>
-        <textarea name="message" placeholder="Your Message" class="contact-inputs" required></textarea>
+        <textarea name="message" placeholder=" Your Message" class="contact-inputs" required></textarea>
         <button type="submit">Submit <img src="arrow_icon.png" alt="send"></button>
       </form>
       <div class="contact-right">
          <img src="right_img.png" alt="main pic">
       </div>
     </div>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+<script src="contactMe.js"></script>
     
   </body>
 </html>
