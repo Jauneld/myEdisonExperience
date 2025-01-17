@@ -1,72 +1,103 @@
-/* Full screen hero section */
+/* General Reset */
+body, html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Roboto', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* Navbar */
+.navbar {
+  padding: 15px;
+  background-color: rgba(0, 0, 0, 0.8);
+  transition: background-color 0.3s;
+}
+
+.navbar-brand {
+  font-size: 1.5rem;
+  color: #ff6347;
+}
+
+.navbar-nav .nav-link {
+  padding: 8px 15px;
+  transition: color 0.3s;
+}
+
+.navbar-nav .nav-link:hover {
+  color: orange;
+}
+
+/* Hero Section */
 .hero-section {
   position: relative;
   height: 100vh;
   display: flex;
   align-items: center;
   justify-content: center;
-  color: white;
   text-align: center;
+  color: white;
+  background: linear-gradient(135deg, #007bff, #6610f2);
 }
 
-/* Typewriter effect and color for "Hello" */
 .typewriter-text {
+  font-size: 4rem;
+  animation: fadeIn 2s ease-out;
+}
+
+.hero-subtext {
+  font-size: 1.2rem;
+  margin-top: 20px;
+  opacity: 0.8;
+}
+
+/* Cards Section */
+.card-custom {
+  border: none;
   overflow: hidden;
-  white-space: nowrap;
-  border-right: 0.15em solid orange;
-  color: #ff6347;
-  font-family: 'Courier New', monospace;
-  font-size: 5rem;
-  animation: typing 3.5s steps(40, end), blink-caret 0.75s step-end infinite;
+  border-radius: 15px; /* Rounded corners */
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+  transition: transform 0.3s, box-shadow 0.3s;
+  background-color: #fff;
+  padding: 30px; /* Padding inside the card */
+  min-height: 250px; /* Ensure larger card size */
+  font-size: 1.25rem; /* Larger text */
+  max-width: 100%; /* Full width of the screen */
+  margin-bottom: 20px; /* Space between cards */
 }
 
-/* Typewriter effect keyframes */
-@keyframes typing {
-  from { width: 0; }
-  to { width: 47%; }
+.card-custom:hover {
+  transform: translateY(-12px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
 }
 
-@keyframes blink-caret {
-  from, to { border-color: transparent; }
-  50% { border-color: orange; }
+.card-title {
+  font-size: 1.5rem; /* Larger title size */
+  font-weight: bold;
 }
 
-/* Bouncing arrow */
-.scroll-arrow {
-  position: absolute;
-  bottom: 20px;
-  font-size: 2rem;
-  cursor: pointer;
-  transition: transform 0.3s;
+.card-text {
+  font-size: 1.1rem; /* Larger text size for readability */
+  color: #555;
 }
 
-.scroll-arrow:hover {
-  transform: translateY(-10px);
+/* Cards Section Container */
+#cards-section {
+  padding: 20px; /* Space around the cards section */
 }
 
-/* Full screen card style */
-.full-screen-card {
+.row.g-4 {
   display: flex;
-  align-items: center;
-  justify-content: center;
-  min-height: 100vh;
-  width: 100%;
-  padding: 20px;
-  margin-bottom: 30px;
-  text-align: center;
-  font-size: 2rem;
-  font-family: 'Courier New', monospace; /* Monospace font for card text */
-  color: white;
-  background-color: #007bff; /* Background color for the card */
-  transition: background-color 0.3s; /* Smooth transition for hover effect */
+  flex-direction: column; /* Stack cards vertically */
+  align-items: center; /* Center-align cards in the container */
 }
 
-/* Darken background on hover */
-.full-screen-card:hover {
-  background-color: #0056b3; /* Darker shade on hover */
-}
-
-/* Back to top button */
+/* Back to Top Button */
 .back-to-top {
   position: fixed;
   bottom: 20px;
@@ -79,5 +110,29 @@
   padding: 10px 15px;
   display: none;
   cursor: pointer;
-  transition: opacity 0.3s;
+  transition: opacity 0.3s, transform 0.3s;
+}
+
+.back-to-top:hover {
+  transform: scale(1.1);
+}
+
+/* Animations */
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-20px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+/* Responsive Adjustments */
+@media (max-width: 768px) {
+  .card-custom {
+    min-height: 200px; /* Adjust size for smaller screens */
+    font-size: 1.1rem; /* Slightly smaller text */
+  }
+  .card-title {
+    font-size: 1.25rem;
+  }
+  .card-text {
+    font-size: 1rem;
+  }
 }
