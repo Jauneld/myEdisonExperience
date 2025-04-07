@@ -1,0 +1,572 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Projects</title>
+  <link href="images/blankStare.png" rel="icon" type="image/png">
+  <link href="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/css/bootstrap.min.css" rel="stylesheet">
+  <link href="projects.css" rel="stylesheet">
+</head>
+<body>
+
+  <!-- Back Button -->
+  <div class="container mt-3">
+    <a href="work.html" class="btn btn-outline-warning mb-4">Back</a>
+  </div>
+
+  <!-- Accordion Section -->
+  <div class="container">
+    <h1 class="display-4 text-center">Projects</h1>
+    <div class="accordion" id="projectsAccordion">
+      <!-- Accordion Item 1 -->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://py3.codeskulptor.org/#user309_TFM2Q97qpF8irlb.py" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 1: Silly Sentences
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">I wrote a program that will ask the user for a series of words. Then plug them into a paragraph template.</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">The assignment was easy because we mostly used concatenations and variables. It was good practice for the work we have completed before. To improve the code, I would have added more sentences so the story would have been longer and more engaging. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://py3.codeskulptor.org/#user309_TFM2Q97qpF8irlb.py" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                 <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Project-1-Silly-Sentences?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--2-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://py3.codeskulptor.org/#user309_LIe0znIKSaECy9X.py" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 2: Room Area
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <img src="images/project2shape.png" width="300px">
+              <p class="lead">For this lab, you will find the area of an irregularly shaped room with the shape as shown above. Ask the user to enter the values for sides A, B, C, D, and E and print out the total room area using are of a rectangle (length * width) and the area of a right triangle is (0.5 * the base * height).</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+          
+              <p class="lead"> I liked this project because it was an adventure to use Math to find the area of the irregular shape. It was difficult to find the area of the shape with a plan of how to divide the shape. After the plan, the assignment went smoothly. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://py3.codeskulptor.org/#user309_LIe0znIKSaECy9X.py" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Project-2-Room-Area?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--3-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://py3.codeskulptor.org/#user309_2vxP8B7ZEXBwMNZ.py" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 3: Chatbot
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">You have decided to design a fashion chatbot that helps people pick out their fashion preferences. Your bot can gauge what types of clothes and accessories the user might like. Your chatbot should ask the user the following (minimum requirements for the grader) and then give answers depending on the answers the user inputs:
+                <br>
+                at least 6 questions
+                at least 3 if-elif-else statements
+                the use of the random module and randomly generated numbers
+                <br>
+                Based on these criteria, some responses will be based on what the user types and some will be based on random numbers.
+</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">It was a stressful project but when it was complete I was happy that the code worked well together. The difficulty was to keep track of the number of variables and what the chatbot will say when the user input yes, no, or any other answer. After completing it, it was fun to talk to the Chatbot. To edit the code, I would have added more questions to talk to the user.</p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://py3.codeskulptor.org/#user309_2vxP8B7ZEXBwMNZ.py" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Project-3-Chatbot?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>      
+      <!--4-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://py3.codeskulptor.org/#user309_TkhbgTJZWhTRsAJ.py" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 4: Divisible by 4
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">Write a program that will ask a user how many numbers they would like to check. Then, using a for loop, prompt the user for a number, and output if that number is divisible by 3 or not. Continue doing this as many times as the user indicated. Once the loop ends, output how many numbers entered were divisible by 3 and how many were not divisible by 3.</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">I enjoyed this project because it was centered around one of my favorite subjects, Math. It was fun to figure out how the code should work. Working with the input function, variable, for loops and the modulus was a good way for me to practice my skills in coding and Math. A challenge was to make the user determine the number of times the program should check if the number is divisible by 3. To make the code more challenging, I would add an input in which the user can ask what number they can divide by.</p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://py3.codeskulptor.org/#user309_TkhbgTJZWhTRsAJ.py" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Project-4-Divisible-by-3?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--5-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://earsketch.gatech.edu/earsketch2/?sharing=OIGdNjn3Vqw_-5pN7_QZpA" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 5: Design a Ringtone
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">Create a unique ringtone using python code in a platform called earsketch. The criteria was:
+                must use both of the EarSketch functions fitMedia() and setEffect()
+                You must use string operations (concatenation or splicing) to create your own beat, using the EarSketch function makeBeat().
+                You must use for loops to add repetition to your ringtone.
+                You must use at least one user-defined (custom) function to create musical sections for your ringtone.
+                Your ringtone should be a minimum of 60 seconds and a maximum of 90 seconds
+                Your ringtone should include a sound clip found in the EarSketch sound library.
+                Your ringtone should appeal to high school students.
+                Your ringtone should use efficient code whenever possible</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">I had a blast while working on this project. I wanted to make a funky and unique beat that would stand out when played. I wanted the user to enjoy and dance to their ringtone rather than be annoyed at how it sounds. The hardest part of the project was to find beats that blend well together and conveys my theme well. It was a tough task but I believe that I completed it well. The part I enjoyed the most was hearing the product after every choice I made. I felt proud that I could make a song so well put together. I would like to make a different song that had more planning and thought put into the process of making the song.</p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://earsketch.gatech.edu/earsketch2/?sharing=OIGdNjn3Vqw_-5pN7_QZpA" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe width="600" height="400" src="https://earsketch.gatech.edu/earsketch2/?sharing=OIGdNjn3Vqw_-5pN7_QZpA&embedded=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--6-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 6: Animation(Storyboard)
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">Create a storyboard that will be used for your animation idea</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead"> I wanted to create a fun animation that had a solid background story and the viewers can understand what it is about. The hardest part was finding a topic to explore. It surprised me that it was very hard to come up with an idea. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Code</h2>
+              <div class="code-box">
+                <center>
+                  <img src="images/storyboard1.png" width="300px">
+                  <br>
+                  <br>
+                  <img src="images/storyboard2.png" width="300px">
+                </center>
+                 
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--7-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://py3.codeskulptor.org/#user308_emr86n4LVq37fc7.py" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 6: Animation
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">In this assignment, you will use all of the graphics commands you have learned to create an animated scene. Your program should have a clear theme and tell a story. You may pick any school-appropriate theme that you like.
+                <br>
+                                <br>
+                                The program must include a minimum of:
+                <br>
+                                <br>
+                                5 circles<br>
+                                5 polygons<br>
+                                5 line commands<br>
+                                2 for loops<br>
+                                1 global variable</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead"> I had to change the animation concept because I did not have enough time to create the story I wanted to in the initial storyboard. I enjoyed seeing the end product. If I had more time, I would have made a more detailed animation and made it have more content. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://py3.codeskulptor.org/#user308_emr86n4LVq37fc7.py" class="nav-link active"target="_blank" ><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe frameboard="1" width="95%" height="500px" src="https://py3.codeskulptor.org/#user308_emr86n4LVq37fc7.py"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--8-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 6: Animation(Reflection)
+          </button>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">Reflection questions were used to reflect on the animation-making process.
+</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+                            <p class="lead">It was nice to reflect on the hard work that I put into the animation. I think that I could have made a more detailed animation and added more content. I think that I could have made a more descriptive story. I think that I could have made the animation more interesting. I think that I could have made the animation more challenging.
+              </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Code</h2>
+              <div class="code-box">
+                <pre><code>Reflection Questions
+1. Describe the theme of your project. What is it about? 
+What story does it tell?
+                                                 
+  The project was to be about a girl walking her dog in a 
+  forest. I wanted the theme to be peaceful and relatable.
+
+
+2. How is the theme that you chose above reflected in 
+the graphics you created?
+                                                 
+  I used various shapes to create the background and the 
+  characters. It made the peaceful scene that I wanted.
+
+
+3. Describe a problem, challenge, or error you had while 
+writing the code for your assignment and how you solved it.
+                                                 
+  I had an issue with how to use loops to make the animation 
+  run. The way I solved the issue was to do some research on 
+  how to use loops in the animation. I also asked my 
+  classmates how they used the loops in their works. It 
+  helped to hear people explain how they got the animation 
+  to work. Also, I had difficulty making my initial idea into 
+  an animation so I changed into something simpler.
+
+
+4.Iteration is the process of trying out solutions, then 
+changing them over and over until a project is complete. 
+How did you use iteration while creating your program?
+                  
+  I used iteration to have the things I designed to move.
+
+
+5.If you had more time to work on this assignment, what would 
+you like to add to your project?
+                                                 
+I would have added more details in the animation and made a 
+short film.
+
+                                                 </code></pre>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--9-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://jauneld.github.io/CMU-Graphics2/" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            6.1 p5 Generate Color Dots 
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">We created a website allowing users to draw on a platform using circles. If the user clicks on the screen, it will erase everything on the screen. We did this code using p5.js, a JavaScript library.</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">I enjoyed creating the project and using functions and parameters to make the program possible. To edit the code, I would make the dots smaller so they appear as a pencil stroke and change the cursor's icon to a pencil. I would also make it possible for the user to have a access to the option to erase the entire page, or they control where to erase. Overall, I am proud of my work. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://jauneld.github.io/CMU-Graphics2/" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/CMU-Graphics2?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--10-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://replit.com/@JAUNELDEANS/Graphics-632" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            6.3 CMU Graphics 
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">In this program, we explored the Carnegie Mellon School of Computer Science graphics module and created various shapes. The final task was to create an avatar. </p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">This is one of my favorite projects because I had the opportunity to be as creative as I pleased. I designed a pirate named Hack. It was very difficult to estimate the correct placement of different shapes. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://replit.com/@JAUNELDEANS/Graphics-632" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                 <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Graphics-63?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--11-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://replit.com/@JAUNELDEANS/bouncingball" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Bouncing Ball
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">This program was to create a game in which the goal is to eliminate all of the bricks with a ball while keeping the ball bouncing. </p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">I did everything correct in the code but unfortunately, the module was corrupted, which resulted in my work not working. It is disappointing because the brick-breaking game is one of my favorite apps to play. I believed that I was going to get the opportunity to code something I loved, but I was wrong. I enjoyed coding, but it was impossible to get the full experience without seeing the output. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://replit.com/@JAUNELDEANS/bouncingball" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/Bouncing-Ball?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--12-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+           <a href="https://py3.codeskulptor.org/#user309_wRmtBm4fkMOPtsc.py" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 7: Calendar
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">This Python code defines functions to handle date-related calculations. It checks if a given year is a leap year, calculates the number of days in a given month, considering leap years and calculates the total number of days passed in a given year up to a specific date. Finally, the code prompts the user to input a date and choose between two options: either to calculate the number of days in the given month or the number of days passed in the given year up to that date.</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">The code was straightforward unitl I had to write the days_passed function. I did not know how to calculate the number of days passed in a year so I did research using the different resources and was able to complete the code.</p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://py3.codeskulptor.org/#user309_wRmtBm4fkMOPtsc.py" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+               <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/project7?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--13-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+           <a href="https://py3.codeskulptor.org/#user309_Rbst3R02FnRxeQd.py" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 8: Personal Organizer
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">This Python code serves as a simple event manager. It allows users to add events by specifying the event name, month, day, and year. The code ensures that the entered month and day values are valid (within appropriate ranges) and adjusts the number of days based on whether the year is a leap year or not. Users can add multiple events, and the program will display all the entered events with their corresponding dates in a formatted manner.</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">This was simple because I was buliding of the foundation that I created in Project 7 which is above. It was challenging to add in the event adding element but it was overall a good learn experience.</p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://py3.codeskulptor.org/#user309_Rbst3R02FnRxeQd.py" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/project8?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--14-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://py3.codeskulptor.org/#user309_AlMToqYMkYYhDU3.py" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Project 9: Flight Tracker
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">This Python code manipulates a 2D list of cities. Initially, iterates through the list and prints each city in a row-by-row manner. Then, reverses the order of the cities within each row of the list and prints the modified list. Essentially, the code demonstrates how to print and manipulate 2D lists containing city names.</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">I liked this project because it really gave me a challenge. It was I new topic that I had no background knowledge so I had to use trial and error to get the code to run. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://py3.codeskulptor.org/#user309_AlMToqYMkYYhDU3.py" class="nav-link active" target="_blank"><h2 class="display-6">Code</h2></a>
+              <div class="code-box">
+                <iframe frameboard="1" width="95%" height="500px" src="https://replit.com/@JAUNELDEANS/project9?lite=true"></iframe>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--15-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://jauneld.github.io/PythonPortfolioOnTheWeb/" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Fall Portfolio
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">This a website that has all of my work that I did in the Fall Term. </p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead"> It was good have all of my information in one place so when the time comes, I will have access to the information.</p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://jauneld.github.io/PythonPortfolioOnTheWeb/" class="nav-link active"><h2 class="display-6">Website</h2></a>
+              <div class="code-box">
+                <center>
+                  <a href="https://jauneld.github.io/PythonPortfolioOnTheWeb/" class="nav-link active" target="_blank"><img src="images/fallport.png" width="300px"></a>
+                </center>
+                
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--15-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://jauneld.github.io/Adoption_Webby/index.html" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Loved Pets Adoption Agency
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">Create a website for a client. The Client is a pet adoption agency.</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">I really enjoyed this project because I explored more with JS. My creativity was really sparked and due to the well thought out website. It went well.</p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://jauneld.github.io/Adoption_Webby/index.html" class="nav-link active" target="_blank"><h2 class="display-6">Website</h2></a>
+              <div class="code-box">
+                <center>
+                  <a href="https://jauneld.github.io/Adoption_Webby/index.html" class="nav-link active" target="_blank"><img src="images/fallport.png" width="300px"></a>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!--16-->
+      <div class="accordion-item border-bottom">
+        <h2 class="accordion-header" id="headingOne">
+          <a href="https://jauneld.github.io/Adoption_Webby/index.html" class="nav-link active" target="_blank"><button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+            Marble Mania
+          </button></a>
+        </h2>
+        <div id="collapseOne" class="accordion-collapse collapse show" aria-labelledby="headingOne" data-bs-parent="#projectsAccordion">
+          <div class="accordion-body d-flex">
+            <!-- Description Section -->
+            <div class="col-md-6">
+              <h2 class="display-6">Description</h2>
+              <p class="lead">Create an obstacle course for a group of marbles to navigate and see which one wins. Press "space" to drop the marbles and "C" to change the camera view .</p>
+              <br>
+              <h2 class="display-6">Reflection</h2>
+              <p class="lead">I really enjoyed this project because I explored more with Unity. I was the first time that worked with Unity and this project eased me into it. 
+              I think that I could do some more modifications but for now this is the completed version. Edits soon to come. </p>
+            </div>
+            <!-- Code Section -->
+            <div class="col-md-6">
+              <a href="https://jauneld.github.io/Adoption_Webby/index.html" class="nav-link active" target="_blank"><h2 class="display-6">Game</h2></a>
+              <div class="code-box">
+                <center>
+                  <a href="#" class="nav-link active" target="_blank"><img src="images/#" width="300px"></a>
+                </center>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Continue with more accordion items as needed -->
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/js/all.min.js" integrity="sha512-0Hnb7A6m6hsSUG+Kw3azVhaTpqY5BRjVcv+j5z4cK5fsrpBCc5V98a7u5W9ZggmVQuvjJzvAn5Rh0yMlGw4vNQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/5.0.0-alpha1/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
