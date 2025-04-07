@@ -1,0 +1,56 @@
+/* styles.css */
+
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+.bg-yellow {
+  background-color: #FFF9C4; /* Light yellow color */
+}
+
+.bg-image {
+  background-size: cover;
+  background-position: center;
+  transition: filter 0.3s ease;
+  height: 100vh; /* Full viewport height */
+}
+
+.projects-section {
+  background-image: url('images/project.jpg'); /* Replace with your image URL */
+}
+
+.assignments-section {
+  background-image: url('images/assignments.jpeg'); /* Replace with your image URL */
+}
+
+.text-overlay {
+  color: white;
+  font-size: 3rem;
+  font-weight: bold;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+}
+
+.projects-section:hover, .assignments-section:hover {
+  filter: brightness(1.2); /* Makes the image appear brighter on hover */
+}
+
+.navbar-toggler-icon {
+  color: #333; /* Dark color for the toggler icon */
+}
+
+.no-gutters {
+  margin-right: 0;
+  margin-left: 0;
+}
+
+.no-gutters > .col, .no-gutters > [class*="col-"] {
+  padding-right: 0;
+  padding-left: 0;
+}
+
+.blank{
+  position: absolute;
+  left:10px;
+}
