@@ -1,0 +1,43 @@
+/* styles.css */
+
+body, html {
+  height: 100%;
+  margin: 0;
+  padding: 0; 
+  background-color: lightyellow;
+}
+
+.bg-yellow {
+  background-color: #FFF970; /* Light yellow color */
+}
+
+.accordion-button {
+  background-color: #FFF970; /* Light yellow color for accordion button */
+  margin-top: 12px;
+}
+
+.accordion-button:focus {
+  box-shadow: none; /* Remove the default Bootstrap focus shadow */
+}
+
+.code-box {
+  background-color: #FFF970;
+  border: 1px solid #ddd;
+  padding: 10px;
+  border-radius: 5px;
+  overflow-x: auto;
+  margin: 20px;
+}
+
+.pre-scrollable {
+  max-height: 340px;
+  overflow-y: scroll;
+}
+
+.navbar-toggler-icon {
+  color: #333; /* Dark color for the toggler icon */
+}
+
+.accordion-item {
+  border-bottom: 1px solid #ddd; /* Divider line */
+}
